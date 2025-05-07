@@ -5,8 +5,8 @@ export default function useHealth() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    // Use the public URL for the backend
-    const backendUrl = 'https://work-2-vrwslohksisiqstv.prod-runtime.all-hands.dev/health';
+    // Use localhost for development
+    const backendUrl = 'http://localhost:12003/health';
     
     fetch(backendUrl)
       .then(r => r.json())
