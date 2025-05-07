@@ -40,20 +40,18 @@ npm run dev
 ```
 
 The frontend will be available at:
-- Local: http://localhost:12000
-- Public: https://work-1-vrwslohksisiqstv.prod-runtime.all-hands.dev
+- Local: http://localhost:12007 (or another port if 12007 is in use)
 
 ### Running the Backend
 
 ```bash
 cd backend
 pip install -r requirements.txt
-uvicorn app.main:app --reload --host 0.0.0.0 --port 12001
+uvicorn app.main:app --reload --host 0.0.0.0 --port 12003
 ```
 
 The backend API will be available at:
-- Local: http://localhost:12001
-- Public: https://work-2-vrwslohksisiqstv.prod-runtime.all-hands.dev
+- Local: http://localhost:12003
 
 ## Current Features (Phase 1)
 
